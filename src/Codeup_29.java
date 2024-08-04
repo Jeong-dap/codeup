@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Codeup_28 {
+public class Codeup_29 {
     public static void main(String[] args) {
-        long i;
+        double i;
         Scanner sc = new Scanner(System.in);
-        i = sc.nextLong();
+        i = sc.nextDouble();
 
-        System.out.println(i);
+        System.out.printf("%.11f", i);
     }
 }
